@@ -8,4 +8,4 @@ const port = 3000;
 // get request, to url/, gwt res -> "send" the req
 app.get('/', (req, res) => res.send('Hello World!'));
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+app.listen(port, () => console.log(`Connected on port ${port}!`));
